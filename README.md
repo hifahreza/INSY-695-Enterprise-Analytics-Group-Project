@@ -14,24 +14,43 @@ Orange is a French multinational telecommunications company with approximately 2
 The data contains information about the phone plans of 2666 of Oranges customers. The data contains the following columns:
 
 **State** - U.S. state the customer lives in.
+
 **Area_code** - Customer's telephone area code.
+
 **Account_length** - Duration of customers' accounts (months).
+
 **Total_day_minutes** - Total daytime minutes used by the customer.
+
 **Total_day_calls** - Total daytime calls placed by the customer.
+
 **Total_day_charge** - Total daytime charges incurred by the customer.
+
 **Total_eve_minutes** - Total evening minutes used by the customer.
+
 **Total_eve_calls** - Total evening calls placed by the customer.
+
 **Total_eve_charge** - Total evening charges incurred by the customer.
+
 **Total_night_minutes** - Total nighttime minutes used by the customer.
+
 **Total_night_calls** - Total nighttime calls placed by the customer.
+
 **Total_night_charge** - Total nighttime charges incurred by the customer.
+
 **Total_intl_minutes** - Total international minutes used by the customer.
+
 **Total_intl_calls** - Total international calls placed by the customer.
+
 **Total_intl_charge** - Total international charges incurred by the customer.
+
 **International_plan** - Did the customer have an international plan? (Yes or No)
+
 **Voice_mail_plan** - Did the customer have a plan with voicemail? (Yes or No)
+
 **Number_vmail_messages** - Number of voicemail messages used by the customer.
+
 **Customer_service_calls** - Number of calls the customer placed to Orange's customer service center.
+
 **Churn**  - Did the customer leave Orange's plan? (Yes or No)
 
 ### Modelling:
