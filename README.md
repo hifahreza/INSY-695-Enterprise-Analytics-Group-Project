@@ -5,6 +5,8 @@
 
 ### Introduction to Use Case: Telecom Customer Churn
 
+![image](https://user-images.githubusercontent.com/93062815/153732470-7db8bce1-0f1f-4313-af25-54c3f7ca880a.png)
+
 Orange is a French multinational telecommunications company with approximately 266 million customers. Like all telecom companies, one of the constant threats to Orange's business model is customer churn, the rate at which customers leave. In order to protect its top line, Orange cannot just attract new customers, it also needs to minimize the rate at which its current customers are leaving, and likely signing on to a plan with one of its competitors. In that data we have collected about Orange’s customers, the churn rate is approximately 17%. Our objective is to help Orange lower this churn rate. To this end, we will analyze the data and develop models that predict churn rate. These models will allow us to identify which factors are lead customers to leave Orange. 
 
 ### Hypothesis:
