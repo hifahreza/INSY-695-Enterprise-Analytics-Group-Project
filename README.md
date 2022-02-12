@@ -11,7 +11,7 @@ Orange is a French multinational telecommunications company with approximately 2
 
 ### Data:
 
-The data contains information about the phone plans of 2666 of Oranges customers (see Churn.csv file). The data contains the following columns:
+The data contains information about the phone plans of 2666 of Orange's customers (see Churn.csv file). The data contains the following columns:
 
 **State** - U.S. state the customer lives in.
 
