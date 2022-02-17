@@ -12,6 +12,8 @@ Orange is a French multinational telecommunications company with approximately 2
 
 ### Hypothesis:
 
+We hypothesize that there will be two primary predictors of customer churn. First, we think that a high number of calls to Orange's customer service agents will mean that a customer is more likely to Churn. If a customer is calling repeatedly, it is a good indication that they are having trouble with their service and that they are therefore less satisfied with the service and more likely to leave. Secondly, we hypothesize that customers who have large charges will be more likely to leave. If they are paying more, it seems reasonable to think that they will be more critical of Orange's service, possibly less satisfied with it, and more likely to look for alternatives that might be cheaper.
+
 ### Data:
 
 The data contains information about the phone plans of 2666 of Orange's customers (see Churn.csv file). The data contains the following columns:
