@@ -59,6 +59,21 @@ The data contains information about the phone plans of 2666 of Orange's customer
 
 ### Modelling:
 
+To solve this business problem, we ran the following 12 models to better understand the factors that influence the decision by Orange's customers to leave.
+
+1. Logistic Regression
+2. Decision Tree Classifier
+3. Random Forest Classifier
+4. Gradient Boosting Classifier
+5. Light Gradient Boosting Machine Classifier
+6. Extreme Gradient Boosting Classifier
+7. Support Vector Classifier
+8. AdaBoost
+9. TPOTClassifier
+10. CatBoostClassifier
+11. ANN - Sequential Model
+12. Causal Inference
+
 
 ### Results:
 
