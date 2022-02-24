@@ -77,11 +77,26 @@ To solve this business problem, we ran the following 12 models to better underst
 
 ### Results:
 
+#### Feature Importance:
+
+
+#### Causal Inference:
+
 
 ### Threats to Validity:
 
 
-### Conclusions:
+### Recommendations:
+
+1. Orange should invest in customer service:
+   - Orange should improve the quality of its customer service
+   - Ensure that customers do not have to call back more than 3 times. The rate of attrition increases significantly when customers have to call back several times.
+
+2. Customers who do not have voicemail are more likely to churn
+   - Orange should offer voicemail as a standard feature. 
+
+3. Customers who have a lot of minutes are more likely to churn.
+   - Orange should offer a reduced rate per minute after customers pass a certain number of total calling minutes. 
 
 
 ### Lessons learned and next steps:
