@@ -79,8 +79,23 @@ To solve this business problem, we ran the following 12 models to better underst
 
 #### Feature Importance:
 
+Treatment: Customer Service Calls (most important feature in AdaBoost model)
+
+Package: CausalML
+
+Binary Approach:
+1. No Service Calls: 13.92% Churn
+2. Any Service Calls: 14.95% Churn
+
+Bucketed Approach:
+1. No Service Calls: 13.89% Churn
+2. 1-3 Service Calls: 10.24% Churn
+3. 4-9 Service Calls: 55.74% Churn
+
+Insight: A customer making 1-3 service calls is not an issue, but making 4-9 service calls greatly increases the risk of churn.
 
 #### Causal Inference:
+
 
 
 ### Threats to Validity:
