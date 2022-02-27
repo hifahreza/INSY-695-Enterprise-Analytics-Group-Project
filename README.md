@@ -77,8 +77,17 @@ To solve this business problem, we ran the following 12 models to better underst
 
 ### Results:
 
+Two best performing models:
+1. AdaBoost
+2. CatBoost
+
 #### Feature Importance:
 
+Most important features based on AdaBoost model:
+1. Customer service calls
+2. Total minutes
+3. Total calls
+4. Area codes
 
 #### Causal Inference:
 
