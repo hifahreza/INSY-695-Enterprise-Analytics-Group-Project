@@ -77,11 +77,19 @@ To solve this business problem, we ran the following 12 models to better underst
 
 ### Results:
 
+The models are optimized for recall as error in finding customers who would actually churn is very costly (we need to minimize false negative predictions)
+
 Two best performing models:
-1. AdaBoost
-2. CatBoost
+1. CatBoost: 91% recall in predicting churn of customers
+2. AdaBoost: 81% recall in predicting churn of customers
 
 #### Feature Importance:
+
+Most important features based on CatBoost model:
+1. Total minutes
+2. Customer service calls
+3. Voicemail feature
+4. Total day charges
 
 Most important features based on AdaBoost model:
 1. Customer service calls
