@@ -116,7 +116,7 @@ Insight: A customer making 1-3 service calls is not an issue, but making 4-9 ser
 
 ### Threats to Validity:
 
-Although our model is already having a very satisfactory accuracy, precision, and recall, our model is still subjected to prediction errors. The Adaboost model has an AUC score of 0.88, 8 false negatives and 32 false positives. Meanwhile the Catboost model has an AUC score of 0.92, 5 false negatives and 32 false positives out of 320 observations. This shows that our model is still subjected to certain degree of uncertainty.
+Although our model is already having a very satisfactory accuracy, precision, and recall, our model is still subjected to prediction errors. The Adaboost model has an AUC score of 0.88, 8 false negatives and 32 false positives. Meanwhile the Catboost model has an AUC score of 0.92, 5 false negatives and 32 false positives out of 320 observations. This shows that our model is still subjected to a certain degree of uncertainty.
 
 ### Recommendations:
 
@@ -132,6 +132,12 @@ Although our model is already having a very satisfactory accuracy, precision, an
 
 
 ### Lessons learned and next steps:
+
+It is insufficient for telecom companies to focus on their product alone. They must also pay attention to the service they are providing. Our analysis shows that the single greatest predictor of churn is the number of customer service calls a customer makes. Granted, one could argue that people are calling because of some other issue and that it is this issue that leads them to churn. However, we found that the more times someone calls, the more likely they are to leave, especially if they call more than 3 times. Therefore, it seems that the calls themselves are leading people to leave.
+
+We also learnt that customers are price elastic. That is, their demand is affected by the price of their plan. The customers who have more minutes, and consequently pay more, are more likely to churn. This is why we recommended that Orange begin a program that decreases the price per minute of calling for customers who have high monthly minutes. Receiving less money per minute once the customer passes a certain usage threshold is better than losing their business altogether.
+
+Overall, we learnt that customer churn can be primarily explained by a few factors: number of service calls, inclusion of voicemail feature, and number of minutes used. This means that there is strong potential for Orange to improve their churn rate by creating policies that focus on these key determinants of churn. Admittedly, our sample of customers was not that large, and it was focused on three regions in California. Thus, in the future, we would recommend that Orange replicate our analysis with a larger sample of customers so that they can design policies which limit preventable churn. There will always be some percentage of customers who will leave their plan, but our analysis shows that it is possible to identify why customers are leaving and to design policies to prevent them from doing so.
 
 
 
