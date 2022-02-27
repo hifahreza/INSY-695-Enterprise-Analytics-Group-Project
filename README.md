@@ -74,12 +74,12 @@ To solve this business problem, we ran the following 12 models to better underst
 11. ANN - Sequential Model
 12. Causal Inference
 
-
 ### Results:
 
-The models are optimized for recall as error in finding customers who would actually churn is very costly (we need to minimize false negative predictions)
+The models are optimized for recall as the inability to identify prospective customers who would actually churn would lead to missed revenue generation opportunity. Thus, minimizing the false negative rate is the foremost priority in developing the model.
 
-Two best performing models:
+Two best performing models out of 12 models mentioned above:
+
 1. CatBoost: 91% recall in predicting churn of customers
 2. AdaBoost: 81% recall in predicting churn of customers
 
@@ -114,9 +114,9 @@ Bucketed Approach:
 
 Insight: A customer making 1-3 service calls is not an issue, but making 4-9 service calls greatly increases the risk of churn.
 
-
 ### Threats to Validity:
 
+Although our model is already having a very satisfactory accuracy, precision, and recall, our model is still subjected to prediction errors. The Adaboost model has an AUC score of 0.88, 8 false negatives and 32 false positives. Meanwhile the Catboost model has an AUC score of 0.92, 5 false negatives and 32 false positives out of 320 observations. This shows that our model is still subjected to certain degree of uncertainty.
 
 ### Recommendations:
 
